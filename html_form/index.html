@@ -7,13 +7,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
 	<!-- Visit Google Fonts and implement a font of your choice here -->
-
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<!-- Create a link to style.css here -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <!-- Create a Div here with a class attribute of "margin-top-20" and "logo" with whatever text you like inside. -->
+<div class="margin-top-20 logo">This is my Logo!</div>
 
 <div class="small-container margin-top-20">
 	<div class="well">
@@ -22,24 +24,35 @@
 		</div>
 		<div class="margin-top-10">
 			<!-- Place a text input field here with a class of "form-control" -->
+			<input type="text" class="form-control">
 		</div>
 		<div class="bold margin-top-10">
 			Last Name
 		</div>
 		<div class="margin-top-10">
 			<!-- Place a text input field here with a class of "form-control" -->
+			<input type="text" class="form-control">
 		</div>
 		<div class="bold margin-top-10">
 			Email Address
 		</div>
 		<div class="margin-top-10">
 			<!-- Place a text input field here with a class of "form-control" -->
+			<input type="email" class="form-control">
+		</div>
+		<div class="bold margin-top-10">
+			Password
+		</div>
+		<div class="margin-top-10">
+			<!-- Place a password input field here with a class of "form-control" -->
+			<input type="password" class="form-control">
 		</div>
 		<div class="bold margin-top-10">
 			Address
 		</div>
 		<div class="margin-top-10">
 			<!-- Place a text input field here with a class of "form-control" -->
+			<input type="text" class="form-control">
 		</div>
 		<div class="row margin-top-10">
 			<div class="col-sm-6">
@@ -48,6 +61,7 @@
 				</div>
 				<div class="margin-top-10">
 					<!-- Place a text input field here with a class of "form-control" -->
+					<input type="text" class="form-control">
 				</div>
 			</div>
 			<div class="col-sm-6">
@@ -56,6 +70,7 @@
 				</div>
 				<div class="margin-top-10">
 					<!-- Place a text input field here with a class of "form-control" -->
+					<input class="form-control"
 				</div>
 			</div>
 		</div>
@@ -66,6 +81,11 @@
 				</div>
 				<div class="margin-top-10">
 					<!-- Place a select field here with a class of "form-control" with options for each state. You may want to find a list online. -->
+					<select>
+						<option>AL</option>
+						<option>AK</option>
+						<option>AZ</option>
+					</select>
 				</div>
 			</div>
 			<div class="col-sm-6">
@@ -75,18 +95,21 @@
 				<div class="margin-top-10">
 					<select class="form-control">
 						<option value="USA">United States</option>
+						<option value="CAN">Canada</option>
 					</select>
+					
 				</div>
 			</div>
 		</div>
 		<div class="margin-top-20 txt-center">
 			<!-- Place a button here with a type attribute of "submit", a class of "btn btn-primary", and an id attribute of "submit" -->
+			<button class="btn btn-primary" id="submit">Submit</button>
 		</div>
 	</div>
 </div>
 
 <!-- Create a JavaScript script link here to app.js -->
-
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>
